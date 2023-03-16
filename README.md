@@ -8,11 +8,11 @@ O projeto foi desenvolvido utilizando React, uma biblioteca JavaScript para cons
 
 ## Funcionalidades
 
-Login de usuário
-Cadastro de usuário
-Postagem de fotos
-Feed de fotos
-Interagir com outras postagens através de comentários e curtidas
+- Login de usuário
+- Cadastro de usuário
+- Postagem de fotos
+- Feed de fotos
+- Interagir com outras postagens através de comentários e curtidas
 
 # Getting Started with Create React App
 
