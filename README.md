@@ -1,3 +1,19 @@
+# Dogs - Rede social para amantes de cães
+
+Este é um projeto de uma rede social chamada "Dogs" criada durante um curso da Origamid. A rede social é voltada para amantes de cães, onde é possível postar fotos e interagir com outros usuários.
+
+## Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando React, uma biblioteca JavaScript para construção de interfaces de usuário. Além disso, a autenticação de usuários, processo de login e postagem de fotos foi feita através de uma Rest API.
+
+## Funcionalidades
+
+Login de usuário
+Cadastro de usuário
+Postagem de fotos
+Feed de fotos
+Interagir com outras postagens através de comentários e curtidas
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
