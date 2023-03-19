@@ -8,9 +8,11 @@ const PhotoDelete = ({ id }) => {
 
   async function handleClick() {
     const confirm = window.confirm('Tem certeza que deseja deletar a foto?');
-    const { url, options } = PHOTO_DELETE(id);
-    const { response } = await request(url, options);
-    if (response.ok) window.location.reload();
+    if (confirm) {
+      const { url, options } = PHOTO_DELETE(id);
+      const { response } = await request(url, options);
+      if (response.ok) window.location.reload();
+    }
   }
 
   return (
